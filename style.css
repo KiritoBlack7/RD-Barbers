@@ -1,0 +1,121 @@
+header{
+    background: #BBBBBB;
+    padding: 20px 0px;
+    transition: 0.5s;
+}
+
+#box{
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+}
+
+#box h1 img{
+    width: 15em;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+nav ul{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    
+}
+
+nav a:hover{
+    color: #1a1616;
+    text-decoration: underline;
+}
+
+nav a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#banner{
+    width: 100%;
+    display: block;
+    margin: auto; 
+}
+
+main{
+    background: #FEFEFE;
+}
+
+.main{
+    margin: 30px 2em;
+    font-size: large;
+}
+
+.title_main{
+    text-align: center;
+    font-size: 2em;
+    clear: left;
+    margin: 15px 0;
+
+}
+
+#cut{
+    width: 180px;
+    float: left;
+    margin: 0 10px 0px 0px;
+}
+
+.main p{
+    margin: 1em 0;
+    font-size: larger;
+}
+.products{
+    width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.products li > img{
+    width: 10em;
+}
+
+.products li:hover h2{
+    font-size: 35px;
+}
+
+.product-description{
+    font-size: 20px;
+
+}
+
+.product-price{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#four{
+    width: 55px;
+    float: left;
+    margin: 15px 30px 0 calc(50% - 150px);
+}
+
+.cortes-fundo{
+    background: #666166;
+    padding-top: 30px;
+    transition: 0.5s;
+    font-size: large;
+}
